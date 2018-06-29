@@ -1,9 +1,62 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
-  margin: 0;
+  margin: 25px;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+/* header starts */
+.header-intro {
+	background-image: url("../images/soup.jpg");
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 30px;
+}
+
+.header-heading{
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 55px;
+}
+/* header starts */
+
+/* intro section starts */
+
+.intro-section, .ingredient-section {
+	border-bottom: 2px solid;
+	border-color: grey;
+}
+
+/* intro section ends */
+
+
+/* ingredient section starts */
+
+ol.dashed {
+	list-style-type: none;
+}
+
+ol.dashed > li {
+  text-indent: -5px;
+}
+
+ol.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+/* ingredient section ends */
+
+/* images starts */
+.recipe-info, .ingredient-info {
+	width: 60%;
+	margin-bottom: 20px;
+}
+
+
+/* images ends */
